@@ -1,6 +1,8 @@
 # 🔴 GeometryCalculator 🔷
 
-Este é um projeto de uma calculadora de geometria em Java. Ela permite calcular várias propriedades geométricas, como área, perímetro, volume, etc. Projeto desenvolvido na escola Senac Distrito Criativo.
+Este é um projeto de uma **calculadora de geometria** em Java. Ela permite calcular várias propriedades geométricas, como **área**, **perímetro**, **volume**, e muito mais. Desenvolvido pelo terceiro ano na escola **Senac Distrito Criativo**
 
-Alunos: Augusto Feltrin e Mauricio Prederigo
+## 📐 Alunos
+- Augusto Feltrin
+- Mauricio Prederigo
 
