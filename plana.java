@@ -6,10 +6,10 @@ public class plana extends calculadora{
     double c;
     double r;
     double h;
-    double g;
-    double L;
     double l;
-    double R;
+    double bm;
+    double D;
+    double d.
 
     public void quadrado(){
         double perimetroquadrado = this.a * Math.sqrt(4);
@@ -31,11 +31,16 @@ public class plana extends calculadora{
         double areatrianguloequi = a * h;
         double perimetrotrianguloequi = 2 * a * 2 * b;
     }
-    public void troncocone(){
-        double volumecone = Math.PI * h * (Math.pow( r,2) + R*r* + Math.pow(R,2))/ 3;
+    public void losango(){
+        double arealosango = D * d / 2;
+        double perimetrolosango = this.a * Math.sqrt(4);
     }
-    public void piramide(){
-        
+    public void trapezio(){
+        double areatrapezio = c + b + bm + d;
+        double perimetrotrapezio = (b + bm) * h / 2;
     }
-
+    public void circulo(){
+        double areacirculo = Math.PI * Math.pow(r, 2) 
+        double comprimentocirculo = 2 * Math.PI * r;
+    }
 }
