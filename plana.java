@@ -9,7 +9,7 @@ public class plana extends calculadora{
     double l;
     double bm;
     double D;
-    double d.
+    double d;
 
     public void quadrado(){
         double perimetroquadrado = this.a * Math.sqrt(4);
@@ -40,7 +40,7 @@ public class plana extends calculadora{
         double perimetrotrapezio = (b + bm) * h / 2;
     }
     public void circulo(){
-        double areacirculo = Math.PI * Math.pow(r, 2) 
+        double areacirculo = Math.PI * Math.pow(r, 2);
         double comprimentocirculo = 2 * Math.PI * r;
     }
 }
