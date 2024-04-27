@@ -25,7 +25,7 @@ public class calculadora {
                     System.out.println("8. Circulo");
 
                     int formaPlana = scanner.nextInt();
-                    scanner.nextLine();         
+                    scanner.nextLine();            
 
                 case 2:
                     System.out.println("Selecione a forma geometrica que deseja calcular:"); 
