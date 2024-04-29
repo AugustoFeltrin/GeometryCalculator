@@ -27,6 +27,57 @@ public class calculadora {
                     int formaPlana = scanner.nextInt();
                     scanner.nextLine();            
 
+                    plana formaPlanaCalculadora = new plana();
+
+                    switch (formaPlana) {
+                        case 1:
+                            System.out.println("Digite o lado do quadrado:");
+                            double ladoQuadrado = scanner.nextDouble();
+                            formaPlanaCalculadora.a = ladoQuadrado;
+                            formaPlanaCalculadora.quadrado();
+                            break;
+
+                        case 2:
+                            System.out.println("Digite a base do retângulo:");
+                            double baseRetangulo = scanner.nextDouble();
+                            System.out.println("Digite a altura do retângulo:");
+                            double alturaRetangulo = scanner.nextDouble();
+                            formaPlanaCalculadora.a = baseRetangulo;
+                            formaPlanaCalculadora.b = alturaRetangulo;
+                            formaPlanaCalculadora.retangulo();
+                            break;
+                       
+                        case 3:
+                            System.out.println("Digite a altura do triângulo:");
+                            double alturaTriangulo = scanner.nextDouble();
+                            System.out.println("Digite o lado a do triângulo:");
+                            double ladoA = scanner.nextDouble();
+                            System.out.println("Digite o lado b do triângulo:");
+                            double ladoB = scanner.nextDouble();
+                            System.out.println("Digite o lado c do triângulo:");
+                            double ladoC = scanner.nextDouble();
+                            formaPlanaCalculadora.h = alturaTriangulo;
+                            formaPlanaCalculadora.a = ladoA;
+                            formaPlanaCalculadora.b = ladoB;
+                            formaPlanaCalculadora.c = ladoC;
+
+                            formaPlanaCalculadora.triangulo();
+                        break;
+                        
+                        case 4:
+                            System.out.println("Digite o lado do triângulo equilátero:");
+                            double ladoEquilatero = scanner.nextDouble();
+                            formaPlanaCalculadora.l = ladoEquilatero;
+                            formaPlanaCalculadora.trianguloequilatero();
+                        break;
+                    
+                        default:
+                            System.out.println("Opção inválida. Tente novamente.");
+                            break;
+                    }
+                    break;
+
+
                 case 2:
                     System.out.println("Selecione a forma geometrica que deseja calcular:"); 
                     System.out.println("1. Prisma");

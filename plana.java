@@ -33,8 +33,8 @@ public class plana extends calculadora{
     }
 
     public void trianguloequilatero(){
-        double areatrianguloequi = a * h / 2;
-        double perimetrotrianguloequi = (int) Math.pow(l, 2) * Math.sqrt(3) / 4;
+        double areatrianguloequi = (Math.sqrt(3) / 4) * Math.pow(l, 2);
+        double perimetrotrianguloequi = 3 * l;
         System.out.println("Área do triângulo equilátero: " + areatrianguloequi);
         System.out.println("Perímetro do triângulo equilátero: " + perimetrotrianguloequi);
     }
