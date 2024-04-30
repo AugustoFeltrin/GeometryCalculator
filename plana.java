@@ -48,9 +48,9 @@ public class plana extends calculadora{
 
     public void losango(){
         double arealosango = D * d / 2;
-        double perimetrolosango = this.a * Math.sqrt(4);
-        System.out.println("Área do paralelograma: " + arealosango);
-        System.out.println("Perímetro do paralelograma: " + perimetrolosango);
+        double perimetrolosango = a * 4;
+        System.out.println("Área do losango: " + arealosango);
+        System.out.println("Perímetro do losango: " + perimetrolosango);
     }
 
     public void trapezio(){

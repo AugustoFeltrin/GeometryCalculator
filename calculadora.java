@@ -35,7 +35,7 @@ public class calculadora {
                             double ladoQuadrado = scanner.nextDouble();
                             formaPlanaCalculadora.a = ladoQuadrado;
                             formaPlanaCalculadora.quadrado();
-                            break;
+                        break;
 
                         case 2:
                             System.out.println("Digite a base do retângulo:");
@@ -45,22 +45,21 @@ public class calculadora {
                             formaPlanaCalculadora.a = baseRetangulo;
                             formaPlanaCalculadora.b = alturaRetangulo;
                             formaPlanaCalculadora.retangulo();
-                            break;
+                        break;
                        
                         case 3:
                             System.out.println("Digite a altura do triângulo:");
                             double alturaTriangulo = scanner.nextDouble();
                             System.out.println("Digite o lado a do triângulo:");
-                            double ladoA = scanner.nextDouble();
+                            double ladoATriangulo = scanner.nextDouble();
                             System.out.println("Digite o lado b do triângulo:");
-                            double ladoB = scanner.nextDouble();
+                            double ladoBTriangulo = scanner.nextDouble();
                             System.out.println("Digite o lado c do triângulo:");
-                            double ladoC = scanner.nextDouble();
+                            double ladoCTriangulo = scanner.nextDouble();
                             formaPlanaCalculadora.h = alturaTriangulo;
-                            formaPlanaCalculadora.a = ladoA;
-                            formaPlanaCalculadora.b = ladoB;
-                            formaPlanaCalculadora.c = ladoC;
-
+                            formaPlanaCalculadora.a = ladoATriangulo;
+                            formaPlanaCalculadora.b = ladoBTriangulo;
+                            formaPlanaCalculadora.c = ladoCTriangulo;
                             formaPlanaCalculadora.triangulo();
                         break;
                         
@@ -71,6 +70,33 @@ public class calculadora {
                             formaPlanaCalculadora.trianguloequilatero();
                         break;
                     
+                        case 5:
+                            System.out.println("Digite a altura do paralelograma:");
+                            double alturaParalelograma = scanner.nextDouble();
+                            System.out.println("Digite o primeiro lado  do paralelograma:");
+                            double ladoAParalelograma = scanner.nextDouble();
+                            System.out.println("Digite o segundo lado do paralelograma:");
+                            double ladoBParalelograma = scanner.nextDouble();
+                            formaPlanaCalculadora.h = alturaParalelograma;
+                            formaPlanaCalculadora.a = ladoAParalelograma;
+                            formaPlanaCalculadora.b = ladoBParalelograma;
+                            formaPlanaCalculadora.paralelograma();
+                        break;
+
+                        case 6:
+                            System.out.println("Digite o lado do losango:");
+                            double ladoLosango = scanner.nextDouble();
+                            System.out.println("Digite o diametro maior do losango:");
+                            double DiametroLosango = scanner.nextDouble();
+                            System.out.println("Digite o diametro menor do losango:");
+                            double diametroLosango = scanner.nextDouble();
+                            formaPlanaCalculadora.a = ladoLosango;
+                            formaPlanaCalculadora.D = DiametroLosango;
+                            formaPlanaCalculadora.d = diametroLosango;
+                            formaPlanaCalculadora.losango();
+                        break;
+
+
                         default:
                             System.out.println("Opção inválida. Tente novamente.");
                             break;
