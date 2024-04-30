@@ -54,7 +54,7 @@ public class plana extends calculadora{
     }
 
     public void trapezio(){
-        double areatrapezio = c + b + bm + d;
+        double areatrapezio = a + b + bm + c;
         double perimetrotrapezio = (b + bm) * h / 2;
         System.out.println("Área do trapézio: " + areatrapezio);
         System.out.println("Perímetro do trapézio: " + perimetrotrapezio);

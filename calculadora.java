@@ -95,7 +95,29 @@ public class calculadora {
                             formaPlanaCalculadora.d = diametroLosango;
                             formaPlanaCalculadora.losango();
                         break;
+                        
+                        case 7:
+                            System.out.println("Digite o lado do trapezio:");
+                            double ladoTrapezio = scanner.nextDouble();
+                            System.out.println("Digite o outro lado do trapezio:");
+                            double ladoSTrapezio = scanner.nextDouble();
+                            System.out.println("Digite a base menor do trapezio:");
+                            double baseMenorTrapezio = scanner.nextDouble();
+                            System.out.println("Digite a base maior do trapezio:");
+                            double baseMaiorTrapezio = scanner.nextDouble();
+                            formaPlanaCalculadora.a = ladoTrapezio;
+                            formaPlanaCalculadora.c = ladoSTrapezio;
+                            formaPlanaCalculadora.b = baseMenorTrapezio;
+                            formaPlanaCalculadora.bm = baseMaiorTrapezio;
+                            formaPlanaCalculadora.trapezio();
+                        break;
 
+                        case 8:
+                            System.out.println("Digite o raio da circunferência:");
+                            double raioCirculo = scanner.nextDouble();
+                            formaPlanaCalculadora.r = raioCirculo;
+                            formaPlanaCalculadora.circulo();
+                    break;
 
                         default:
                             System.out.println("Opção inválida. Tente novamente.");
