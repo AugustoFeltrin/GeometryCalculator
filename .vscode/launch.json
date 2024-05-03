@@ -9,6 +9,13 @@
             "name": "calculadora",
             "request": "launch",
             "mainClass": "calculadora",
+            "projectName": "GeometryCalculator_e76d062a"
+        },
+        {
+            "type": "java",
+            "name": "calculadora",
+            "request": "launch",
+            "mainClass": "calculadora",
             "projectName": "GeometryCalculator"
         },
         {

@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class especial extends calculadora{
+public class espacial extends calculadora{
 
     double a;
     double b;
@@ -107,5 +107,11 @@ public class especial extends calculadora{
         System.out.println("Area Base: "+ Ab);
         System.out.println("Area Lateral: "+ Al);
         System.out.println("Area Total: "+ At);
+    }
+    public void esfera() {
+        double perimetro = 2 * Math.PI * this.r;
+        double area = Math.PI * Math.pow(this.r, 2);
+        System.out.println("Perímetro: " + perimetro);
+        System.out.println("Área: " + area);
     }
 }
